@@ -1,0 +1,218 @@
+body{
+    background-color:white;
+  }
+  #main_view{
+    height: 549px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  #first_main_view{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  #texts{
+    width:100%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text{
+    width:25%;
+    height:100%;
+    text-align: center;
+    font-size:21px;
+  }
+  k{
+    color:rgb(255, 153, 0);
+  }
+  c{
+    color:grey;
+    font-size:14px;
+  }
+  #second_top_view{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+  }
+  #second_main_view{
+    height: 80%;
+    width: 100%;
+    font-family: "Ubuntu",sans-serif;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  #second_bot_view{
+    height:75%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second_middle_view{
+    height:70%;
+    width:51%;
+  }
+  .glide__slides img{
+    height:265px;
+    width:208px;
+    margin: 16px;
+  }
+  .glide__slides img:hover{
+    height:265px;
+    width:208px;
+    margin: 16px;
+    opacity: 0.5;
+  }
+  #button{
+    background-color:white ;
+    border: 0px;
+    position: absolute;
+    margin-top: 138px;
+    margin-left: -85px;
+  }
+  #button1{
+    background-color:white ;
+    border: 0px;
+    position: absolute;
+    margin-top: -269px;
+    margin-left: 1000px;  
+  }
+  #left_text{
+    font-size: 30px;
+    height:400px;
+    width:400px;
+    position: absolute;
+    opacity:0;
+  }
+  #right_text_bot_first{
+    font-size: 20px;
+    position: absolute;
+    opacity:0;
+    height:200px;
+    width:200px;
+    text-shadow: 0 0 0.5em
+  }
+  #right_text_bot_first:hover{
+    position: absolute;
+    margin-top:160px;
+    margin-left:-50px;
+    font-size:12px;
+    transition:.2s all;
+    color:black;
+    opacity:1;
+    text-shadow: 0 0 0.6em #ffff;
+  }
+  #right_text_top{
+    font-size: 30px;
+    height:200px;
+    width:500px;
+    position: absolute;
+    opacity:0;
+  }
+  #right_text_top:hover{
+    position: absolute;
+    margin-top:130px;
+    margin-left:-160px;
+    font-size:20px;
+    color:black;
+    opacity:1;
+    transition:.2s all;
+  }
+  #left_text:hover{
+    position: absolute;
+    margin-top:355px;
+    margin-left:-100px;
+    font-size:25px;
+    color:black;
+    opacity:1;
+    transition:.2s all;
+    text-shadow: 0 0 0.6em #ffff;
+  }
+  #left_view_inside{
+    margin-right: 30px;
+    width:485px;
+    height: 449px;
+  }
+  #left_view_inside img{
+    width:485px;
+    height: 449px;
+  }
+  #right_inside{
+    width:485px;
+    height: 449px;
+    flex-direction: column;
+  }
+  #right_inside_top{
+    width:485px;
+    height: 210px;
+  }
+  #right_inside_top img{
+    width:485px;
+    height: 210px;
+  }
+  #right_inside_top .box{
+    width:485px;
+    height: 159px;
+  }
+  #right_inside_bot{
+    width:485px;
+    height: 160px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+  }
+  #right_inside_bot_first{
+    width:227px;
+    height: 210px;
+    margin-right: 30px;
+  }
+  #right_inside_bot_first img{
+    width:227px;
+    height: 210px; 
+  }
+  #right_inside_bot_first .box{
+    width:227px;
+    height: 210px; 
+  }
+  #right_inside_bot_second img{
+    width:227px;
+    height: 210px;
+  }
+  #right_inside_bot_second .box{
+    width:227px;
+    height: 210px;
+  }
+  .box-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  }
+  .box{
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  transition:.2s all; 
+  }
+  #left_view_inside .box{
+    width:485px;
+    height: 449px;
+  }
+  .box-wrap:hover .box{
+  opacity:.4;
+  box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+ 
